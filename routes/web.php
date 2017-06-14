@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/admin',function (){
-    return view('admin.errors.503');
+    return view('admin.index.index');
 });
